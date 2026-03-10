@@ -1,36 +1,42 @@
-let a = "привет";
-//       01234
-// console.log(a[2]);
 
-// for(let i = a.length - 1; i >= 0; i--){
-//     console.log(a[i]);
+// function names() {
+//     console.log(111);
     
 // }
+// names()
 
-// function имя(параметры){
-//     ... тело 
+// let str = 'maga'
+
+// function names2() {
+//     alert(str)
+//     str = 123
+// }
+// names2()
+// alert(str)
+
+//область видимости
+
+// глобальная переменная 
+// let a = 3;
+// function abc(){
+//     a = "abc";
 // }
 
-// function showMessage(){
-//     let message = " Hello, I am JavaScript"
-//     console.log(message);
-//      alert(message)
+// // локальная переменная 
+
+// function abc2(){
+//     let b = 3;
+//     b = "abc";
 // }
-// showMessage()
-// alert(message) тут будет ошибка из-за области видимости 
-
-// let name  = "вася";
-// function showMessage3(){
-//     name3 = "петя"
-//     let message = "привет" + name3;
-//     alert(message)
-// }
-// showMessage3();
+// abc2()
 
 
-let name4  = "вася";
-function showMessage4(){
-    let message = "привет" ;
-    alert(name4)
+let a = "Aisha"
+let b = "Albogachieva"
+
+function nameMy(){
+    alert(a)
+    console.log(b);  
 }
-showMessage4();
+nameMy()
+
